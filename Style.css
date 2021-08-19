@@ -1,0 +1,391 @@
+@import url('http://fonts.googleapis.com/css?family= "Montserrat", sans-serif;');
+body{
+    font-family: ' Montserrat', sans-serif;
+    background: #E6E9ED;
+    padding-left: 35rem;
+    text-decoration-color: #555555;
+    
+    
+
+}
+
+section{
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+.btn{
+    padding: .7rem 3rem;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 2rem;
+    border-radius: 5rem;
+}
+
+.btn i{
+    padding: 0 .5rem;
+    font-size: 1.8rem;
+}
+
+.btn:hover {
+    background: rgb(114, 114, 4);
+}
+
+#heading {
+    text-align: center;
+    margin:0 6rem;
+    font-size: 4rem;
+    padding: 1rem;
+   
+    color: #fff;
+
+}
+
+#heading span{
+    color:rgb(11, 90, 143);
+    border-bottom: .1rem solid rgba(12, 11, 11, 0.267);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.sidebar{
+    position: fixed;
+    left: 0px;
+    width: 250px;
+    height: 100%;
+    background: #682032;
+    transition: all .5s ease;
+
+
+}
+
+.sidebar user {
+    font-size: 22px;
+    color: white;
+
+}
+ .user img{
+    margin-left: 19px;
+    margin-top: 37px;
+    height:10rem;
+    width: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border:.3rem solid yellow;
+    }
+    
+     
+     .user .name{
+        font-size: 25px;
+        margin-left: 19px;
+        color: #fff;
+    }
+
+
+     .user .post{
+        font-size: 17px;
+        margin-left: 35px;
+        color: #eee;
+    }
+
+
+
+
+     .sidebar ul a {
+         display: block;
+         height: 100%;
+         width: 100%;
+         line-height: 65px;
+         font-size: 20px;
+         color: white;
+         padding-left: 40px;
+         box-sizing: border-box;
+        border-top: 1px solid rgba(255,255,255, .1);
+        border-bottom: 1px solid black;
+        transition: .4s;
+     }
+    ul li:hover a{
+        padding-left: 50px;
+
+    }
+
+    .sidebar ul a i{
+        padding-right:16px;
+    }
+
+#menu {
+    position: fixed;
+    top: 2rem; right: 2rem;
+    background: rgb(161, 155, 155);;
+    cursor: pointer;
+    font-size:2.5rem;
+    padding: 1rem 1.5rem;
+    z-index: 1000;
+    display: none;
+}
+
+    .home{
+        display: flex;
+        justify-content: center;
+         flex-flow: column;
+       
+       
+    }
+    html p{
+        color:#555555;
+        font-size: 19px;
+        font-family: ' Montserrat', sans-serif;
+    }
+
+        .home h3 {
+            font-size: 2.5rem;
+            color: #fff;
+            font-family: ' Montserrat', sans-serif;
+        }
+
+
+        .home h1 {
+            font-size: 2rem;
+            color: rgb(11, 90, 143);
+            padding:1rem 0;
+            font-family: ' Montserrat', sans-serif;
+        }
+
+
+
+
+
+       .logos img{
+          flex: content;
+          flex-direction: row;
+            height:5rem;
+            width: 5rem;
+           
+       }
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+       .action {
+        margin-top: 10px;
+        margin-right: 5px;
+    }
+    .action form{
+        flex: 1 1 20px;
+        padding: 15px;
+        margin: 10px;
+        margin-bottom:7px ;
+    }
+    
+    
+    .action form .box{
+        
+        padding: 3px;
+        margin: 5px 0;
+        background: #E6E9ED;
+        text-transform: none;
+        font-size: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media(max-width:1200px){
+    html{
+    font-size: 55.5%;
+}   
+    .home{
+        padding: 1rem 4rem;
+    }
+
+}
+
+@media(max-width:991px){
+    .home{
+        padding: 0px;
+    }
+    #header{
+        left: -120%;
+    }  
+
+     #menu{
+        display: block;
+    }
+   
+
+    #header.toggle{
+        left: 0;
+        
+    }
+
+    body{
+        padding: 0;
+    }
+
+
+}
+
+
+
+
+@media(max-width:700px){
+    .home{
+        padding: 2.5px;
+    }
+   
+   html{
+        font-size: 50%;
+    } 
+    #heading h1{
+        font-size: 30%;
+    }
+    .aboutme{
+        padding-left:2px ;
+    }
+    #portfolio{
+        padding-left:2px ;
+    }
+    section .date {
+        padding: 2px;
+        font-size: 19px;
+    }
+
+#portfolio .info p{
+    font-size:19px ;
+    padding: 2px;
+}
+
+
+
+    .content {
+        font-size: 15px;
+    }
+    #mail{
+        padding: 0px;
+    }
+
+
+
+    .action {
+        margin-top: 10px;
+    }
+    
+    
+    .action form .box{
+        
+       
+        font-size: 15px;
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+@media(max-width:400px){
+    #header{
+        width: 100vw;
+    }  
+    .aboutme{
+        width: 100vw;
+        
+    } 
+
+
+
+    .action {
+        margin-top: 10px;
+    }
+    .action form{
+        flex: 1 1 5px;
+        padding: 5px;
+        margin: 4px;
+        margin-bottom:7px ;
+    }
+    
+    
+    .action form .box{
+        
+        padding: 0px;
+        margin: 6px 0;
+        background: #E6E9ED;
+        text-transform: none;
+        font-size: 14px;
+    }
+
+
+    #portfolio .info p{
+        font-size:15px ;
+    }
+    
+
+}
